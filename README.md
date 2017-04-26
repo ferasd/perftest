@@ -6,4 +6,4 @@
 make
 
 # Make sure nv_peer_mem module is loaded:
-lamod | grep nv_peer_mem
+lsmod | grep nv_peer_mem
